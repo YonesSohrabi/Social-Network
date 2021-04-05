@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" styleClass="main" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="600.0" prefWidth="245.0" styleClass="side-left" stylesheets="@../styles/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="114.0" prefWidth="245.0">
+               <children>
+                  <Circle fx:id="circle" fill="DODGERBLUE" radius="52.0" stroke="BLACK" strokeType="INSIDE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="70.0" top="20.0" />
+                     </HBox.margin>
+                  </Circle>
+               </children>
+            </HBox>
+            <Pane prefHeight="57.0" prefWidth="245.0">
+               <children>
+                  <Label layoutX="65.0" layoutY="6.0" text="Yones Sohrabi">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Label>
+                  <Label layoutX="73.0" layoutY="34.0" text="\@YonesSohrabi" textFill="#5e5e5e">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <HBox prefHeight="85.0" prefWidth="245.0" />
+         </children></VBox>
+   </left>
+</BorderPane>

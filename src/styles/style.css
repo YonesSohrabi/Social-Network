@@ -1,0 +1,10 @@
+.side-left{
+    -fx-background-color : #ffb6b9;
+}
+.main{
+    -fx-background-color : #fae3d9;
+}
+.user-photo{
+    -fx-background-radius: 150;
+    -fx-background-color : #474747;
+}
