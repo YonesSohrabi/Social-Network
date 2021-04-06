@@ -16,7 +16,7 @@ public class sidebarController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        Image img = new Image(getClass().getResource("images/user-photo.jpg").toExternalForm());
+        Image img = new Image(getClass().getResource("../images/user-photo-1.jpg").toExternalForm());
         circle.setFill(new ImagePattern(img));
     }
 

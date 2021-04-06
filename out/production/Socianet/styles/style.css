@@ -1,10 +1,16 @@
 .side-left{
-    -fx-background-color : #ffb6b9;
+    -fx-background-color : #FFFFFF;
 }
 .main{
-    -fx-background-color : #fae3d9;
+    -fx-background-color : #ece4db;
 }
 .user-photo{
     -fx-background-radius: 150;
     -fx-background-color : #474747;
+}
+.crad-info{
+    -fx-background-color: #fff7f7;
+}
+.button-logout:hover {
+    -fx-background-color: #cd1b1b;
 }
